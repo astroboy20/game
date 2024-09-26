@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{7B67D2ED-84F1-DFB0-5A14-079135BFE93E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ROLLING BALL 3D/_Script/MenuManager.cs">
+    <Files>
+      <File FileName="Assets/ROLLING BALL 3D/_Script/BallController.cs" Line="175" Column="1" />
+      <File FileName="Assets/ROLLING BALL 3D/AdController/AdsManager.cs" Line="98" Column="22" />
+      <File FileName="Assets/ROLLING BALL 3D/_Script/AskingContinueUI.cs" Line="88" Column="9" />
+      <File FileName="Assets/ROLLING BALL 3D/AdController/AdmobController.cs" Line="157" Column="52" />
+      <File FileName="Assets/ROLLING BALL 3D/AdController/UnityAds.cs" Line="14" Column="22" />
+      <File FileName="Assets/ROLLING BALL 3D/_Script/MenuManager.cs" Line="120" Column="52" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a1f318ab-009a-4433-b1d5-6795d2469cf8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

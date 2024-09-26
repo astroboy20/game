@@ -1,0 +1,250 @@
+fileFormatVersion: 2
+guid: 54f7a0ab1e4cbee40b93365fa09cee06
+timeCreated: 1436149539
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cube
+    100004: Cube.001
+    100006: Cube.002
+    100008: Cube.003
+    100010: Cube.004
+    100012: Cube.005
+    100014: Cube.006
+    100016: Cube.007
+    100018: Cube.008
+    100020: Cube.009
+    100022: Cube.010
+    100024: Cube.011
+    100026: Cube.012
+    100028: Path-01
+    100030: Path-01.001
+    100032: Path-01.002
+    100034: Slope-01
+    100036: Cube.013
+    100038: Building 1
+    100040: Building
+    100042: Ham A
+    100044: Ham B
+    100046: Path-01.003
+    100048: Sphere
+    100050: Dinamond
+    100052: Path-01 1 Boost
+    100054: Torus
+    100056: Boost
+    100058: Circle
+    100060: Path-1line
+    100062: RedBox
+    100064: Path-1line.Red
+    100066: HamA
+    100068: HamB
+    100070: Dinamond.Yellow
+    400000: //RootNode
+    400002: Cube
+    400004: Cube.001
+    400006: Cube.002
+    400008: Cube.003
+    400010: Cube.004
+    400012: Cube.005
+    400014: Cube.006
+    400016: Cube.007
+    400018: Cube.008
+    400020: Cube.009
+    400022: Cube.010
+    400024: Cube.011
+    400026: Cube.012
+    400028: Path-01
+    400030: Path-01.001
+    400032: Path-01.002
+    400034: Slope-01
+    400036: Cube.013
+    400038: Building 1
+    400040: Building
+    400042: Ham A
+    400044: Ham B
+    400046: Path-01.003
+    400048: Sphere
+    400050: Dinamond
+    400052: Path-01 1 Boost
+    400054: Torus
+    400056: Boost
+    400058: Circle
+    400060: Path-1line
+    400062: RedBox
+    400064: Path-1line.Red
+    400066: HamA
+    400068: HamB
+    400070: Dinamond.Yellow
+    2300000: //RootNode
+    2300002: Cube
+    2300004: Cube.001
+    2300006: Cube.002
+    2300008: Cube.003
+    2300010: Cube.004
+    2300012: Cube.005
+    2300014: Cube.006
+    2300016: Cube.007
+    2300018: Cube.008
+    2300020: Cube.009
+    2300022: Cube.010
+    2300024: Cube.011
+    2300026: Cube.012
+    2300028: Path-01
+    2300030: Path-01.001
+    2300032: Path-01.002
+    2300034: Slope-01
+    2300036: Cube.013
+    2300038: Building 1
+    2300040: Building
+    2300042: Ham A
+    2300044: Ham B
+    2300046: Path-01.003
+    2300048: Sphere
+    2300050: Dinamond
+    2300052: Path-01 1 Boost
+    2300054: Torus
+    2300056: Boost
+    2300058: Circle
+    2300060: Path-1line
+    2300062: RedBox
+    2300064: Path-1line.Red
+    2300066: HamA
+    2300068: HamB
+    2300070: Dinamond.Yellow
+    3300000: //RootNode
+    3300002: Cube
+    3300004: Cube.001
+    3300006: Cube.002
+    3300008: Cube.003
+    3300010: Cube.004
+    3300012: Cube.005
+    3300014: Cube.006
+    3300016: Cube.007
+    3300018: Cube.008
+    3300020: Cube.009
+    3300022: Cube.010
+    3300024: Cube.011
+    3300026: Cube.012
+    3300028: Path-01
+    3300030: Path-01.001
+    3300032: Path-01.002
+    3300034: Slope-01
+    3300036: Cube.013
+    3300038: Building 1
+    3300040: Building
+    3300042: Ham A
+    3300044: Ham B
+    3300046: Path-01.003
+    3300048: Sphere
+    3300050: Dinamond
+    3300052: Path-01 1 Boost
+    3300054: Torus
+    3300056: Boost
+    3300058: Circle
+    3300060: Path-1line
+    3300062: RedBox
+    3300064: Path-1line.Red
+    3300066: HamA
+    3300068: HamB
+    3300070: Dinamond.Yellow
+    4300000: Cube
+    4300002: Cube.011
+    4300004: Cube.010
+    4300006: Cube.009
+    4300008: Cube.008
+    4300010: Cube.007
+    4300012: Cube.006
+    4300014: Cube.005
+    4300016: Cube.004
+    4300018: Cube.003
+    4300020: Cube.002
+    4300022: Cube.001
+    4300024: Cube.012
+    4300026: Path-01
+    4300028: Path-01.002
+    4300030: Path-01.001
+    4300032: Slope-01
+    4300034: Cube.013
+    4300036: Building 1
+    4300038: Building
+    4300040: Ham B
+    4300042: Ham A
+    4300044: Sphere
+    4300046: Path-01.003
+    4300048: Dinamond
+    4300050: Torus
+    4300052: Path-01 1 Boost
+    4300054: RedBox
+    4300056: Path-1line
+    4300058: Boost
+    4300060: Circle
+    4300062: Path-1line.Red
+    4300064: HamA
+    4300066: HamB
+    4300068: Dinamond.Yellow
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

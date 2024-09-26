@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1475777513592018}
+  m_IsPrefabParent: 1
+--- !u!1 &1475777513592018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4979930940115274}
+  - component: {fileID: 114837776821552546}
+  - component: {fileID: 114457217923803206}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4979930940115274
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475777513592018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.8618963, y: 6.8646536, z: -1.6905565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114457217923803206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475777513592018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ef0a6763bba50141aa1b65a12f4709c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicsGame: {fileID: 8300000, guid: c9f43f54bdf232e4d8626a56d7d5bdcb, type: 3}
+  musicsGameVolume: 0.5
+  soundBallExplosion: {fileID: 8300000, guid: de6388b6123d22f41b2404a994467025, type: 3}
+  soundClick: {fileID: 8300000, guid: 0e8d043ecf2905c40b5589ac233d1f09, type: 3}
+  soundRewarded: {fileID: 8300000, guid: f9f9f337636334548b5297c923de8a3b, type: 3}
+  soundUnlockBall: {fileID: 8300000, guid: fa1abf219742367469631a6b17e932c9, type: 3}
+  soundPickBall: {fileID: 8300000, guid: 589e1d5ccd1a09a44826fde4860e6c7f, type: 3}
+  soundNoEnoughGem: {fileID: 8300000, guid: 589e1d5ccd1a09a44826fde4860e6c7f, type: 3}
+  soundBuyItem: {fileID: 8300000, guid: 6560443a08c25a24cae1c8ddb0be7c00, type: 3}
+  soundNextLevel: {fileID: 0}
+  soundCollectGem: {fileID: 8300000, guid: 29231413ad0806a41a6b0d188d9ab232, type: 3}
+--- !u!114 &114837776821552546
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1475777513592018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d67cbdf717b4b6498981121573eae9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  state: 0
+  ballObj: {fileID: 0}
+  vecBallHitPath: {x: 0, y: 0, z: 0}
+  rateRotate: 15
+  speedBallAllow: 15
+  moveXMin: 0
+  moveXMax: 0
+  Ball: {fileID: 0}
+  cameraFollow: {fileID: 0}
+  isUseRespawn: 0

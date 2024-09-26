@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1430261583656428}
+  m_IsPrefabParent: 1
+--- !u!1 &1430261583656428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4571099064675606}
+  - component: {fileID: 114086712380663072}
+  m_Layer: 0
+  m_Name: Creater And Handle Speed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4571099064675606
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1430261583656428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114086712380663072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1430261583656428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4baa99780c89e5745abc47a4ab8d71c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathStart: {fileID: 102448, guid: fa5fc97b00245c445bd887c6f98cf749, type: 2}
+  building: {fileID: 118102, guid: 75f6000f0c5805b43bedc8b54655bead, type: 2}
+  beginPointSpawn: {fileID: 0}
+  testPath:
+  - {fileID: 177040, guid: 57513096c5d5ae54b81cc3ad9b54ea13, type: 2}
+  useTestPath: 0
+  nextLevelPath: {fileID: 1372595782416966, guid: 32a84c50ae7cb1c4d8caee2fc173e15f,
+    type: 2}
+  pathGroup1:
+  - gameObject: {fileID: 116652, guid: 541a5a040dee04d42bee757b8e0d909c, type: 2}
+    weight: 0
+  - gameObject: {fileID: 111458, guid: 9a6d0d68a45be6c44aaa5ef30efea711, type: 2}
+    weight: 0
+  - gameObject: {fileID: 123952, guid: f4f6acef67e7f434c966161825ea031f, type: 2}
+    weight: 0
+  - gameObject: {fileID: 177040, guid: 57513096c5d5ae54b81cc3ad9b54ea13, type: 2}
+    weight: 0
+  - gameObject: {fileID: 125314, guid: 0a6a1ccb9bc480f48b085f37c568b545, type: 2}
+    weight: 0
+  - gameObject: {fileID: 105972, guid: 241470cf2e90543489f09b30110ec174, type: 2}
+    weight: 0
+  - gameObject: {fileID: 134508, guid: 70fdc75b022d7af4fa862a6705bd4413, type: 2}
+    weight: 0
+  pathGroup2:
+  - gameObject: {fileID: 169806, guid: 2966f3ae78b0d784a94e080653059651, type: 2}
+    weight: 0
+  - gameObject: {fileID: 132514, guid: 153de66a4b960db43b2042611e9fd9c6, type: 2}
+    weight: 0
+  - gameObject: {fileID: 107144, guid: 80fc57c2feddd8d40a34ed9d77844a71, type: 2}
+    weight: 0
+  - gameObject: {fileID: 167846, guid: aa13364907883c1478ede848cfd4c301, type: 2}
+    weight: 0
+  - gameObject: {fileID: 197098, guid: b13e56b1051fd4c46bd64091acc1c4f2, type: 2}
+    weight: 0
+  - gameObject: {fileID: 101018, guid: cb6658ed5883ddb43b382d0909ab8a61, type: 2}
+    weight: 0
+  - gameObject: {fileID: 155902, guid: fb0de14bdda8afe4d8779e39c4c255e5, type: 2}
+    weight: 0
+  - gameObject: {fileID: 1302807756009782, guid: efa8880bd1858404cbc03d7ab3397bb9,
+      type: 2}
+    weight: 0
+  pathGroup3:
+  - gameObject: {fileID: 138040, guid: f90cd8d32c7410d4d9bc70ed131ec238, type: 2}
+    weight: 0
+  - gameObject: {fileID: 117240, guid: 97e6ac6f56976d44eaddbf3f2b5c4447, type: 2}
+    weight: 0
+  - gameObject: {fileID: 152964, guid: 4c329fc46676de642bc2d27d1474c16a, type: 2}
+    weight: 0
+  - gameObject: {fileID: 196880, guid: c1c8b249e327ce140bc4974b6e7bfa46, type: 2}
+    weight: 0
+  - gameObject: {fileID: 176302, guid: 399eec4176da528499a92b2b6d6c9015, type: 2}
+    weight: 0
+  - gameObject: {fileID: 107776, guid: 2954adb9f12e10f4db1fbef079aec6f7, type: 2}
+    weight: 0
+  - gameObject: {fileID: 157132, guid: e0056a7353f6bfd4293a1c85e7f95b89, type: 2}
+    weight: 0
+  - gameObject: {fileID: 1688775592818160, guid: 2bcef2675ec621d40bd4ce168d56070d,
+      type: 2}
+    weight: 0
+  - gameObject: {fileID: 1713044313142704, guid: 549f2b817e7b51545b661463794e1825,
+      type: 2}
+    weight: 0
+  maxAllowPaths: 12
+  updateWaves:
+  - velocityContactPath: {x: 0, y: -10.6, z: 10.6}
+    rateRotate: 25
+    speedBallAllow: 15
+    path1Weight: 1
+    path2Weight: 0
+    path3Weight: 0
+    spawnPaths: 8
+  - velocityContactPath: {x: 0, y: -11.3, z: 11.3}
+    rateRotate: 35
+    speedBallAllow: 16
+    path1Weight: 1
+    path2Weight: 0.5
+    path3Weight: 0
+    spawnPaths: 10
+  - velocityContactPath: {x: 0, y: -12, z: 12}
+    rateRotate: 45
+    speedBallAllow: 17
+    path1Weight: 1
+    path2Weight: 1
+    path3Weight: 0
+    spawnPaths: 12
+  - velocityContactPath: {x: 0, y: -12.7, z: 12.7}
+    rateRotate: 55
+    speedBallAllow: 18
+    path1Weight: 0.8
+    path2Weight: 0.8
+    path3Weight: 0.5
+    spawnPaths: 15
+  - velocityContactPath: {x: 0, y: -12.7, z: 12.7}
+    rateRotate: 65
+    speedBallAllow: 18
+    path1Weight: 0.5
+    path2Weight: 0.8
+    path3Weight: 1
+    spawnPaths: 20
+  - velocityContactPath: {x: 0, y: -12.7, z: 12.7}
+    rateRotate: 75
+    speedBallAllow: 18
+    path1Weight: 0.5
+    path2Weight: 1
+    path3Weight: 1
+    spawnPaths: 20
